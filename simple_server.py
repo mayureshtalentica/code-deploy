@@ -5,12 +5,12 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     """Print 'Hello, world!' as the response body."""
-    return 'hello world, Mayuresh!!'
+    return 'hello world, Mayuresh v1!!'
 
 @app.route('/3ri')
 def ri_tech():
     """Print 'Hello, world!' as the response body."""
-    return 'technologies'
+    return 'Talentica-Software'
 
 @app.route('/batch')
 def batch():
