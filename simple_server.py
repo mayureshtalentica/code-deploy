@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     """Print 'Hello, world!' as the response body."""
-    return 'hello world, Coming form terrform after policy modify v11!!'
+    return 'hello world, Coming form final change!'
 
 @app.route('/3ri')
 def ri_tech():
