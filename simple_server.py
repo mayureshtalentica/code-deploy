@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     """Print 'Hello, world!' as the response body."""
-    return 'hello world, Coming form final change v21d!'
+    return 'hello world, Coming form friday change v21d!'
 
 @app.route('/3ri')
 def ri_tech():
@@ -15,7 +15,7 @@ def ri_tech():
 @app.route('/batch')
 def batch():
     """Print 'Hello, world!' as the response body."""
-    return 'feb-batch'
+    return 'Nov-batch'
 
 
 if __name__ == '__main__':
